@@ -1,0 +1,35 @@
+
+  $primary-color: #08fdd8;
+  $accent-color: #08fdd8;
+  $text-color: #fff;
+  $font-weights: (
+    'regular': 400,
+    'medium': 500,
+    'bold': 700
+  );
+
+
+
+body {
+  background-color: #191919;
+  font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+  color: $primary-color;
+}
+
+li {
+  color: #fff;
+}
+
+h4 {
+  color: $text-color;
+  font-size: map-get($font-weights, medium);
+}
+
+
+p {
+  color: $primary-color;
+  font-weight: map-get($font-weights, regular);
+}
